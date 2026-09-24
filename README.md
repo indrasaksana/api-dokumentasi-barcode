@@ -1,4 +1,4 @@
-# Dokumentasi API Pelaporan Barcode ASM
+# Dokumentasi API Pelaporan ASM
 
 Dokumentasi ini menjelaskan endpoint-endpoint API yang digunakan pada alur **Pelaporan Klaim via Barcode** untuk PT Asuransi Sinar Mas (ASM), meliputi environment DEV, LIVE, dan GOLANG DEV.
 
@@ -22,8 +22,6 @@ Dokumentasi ini menjelaskan endpoint-endpoint API yang digunakan pada alur **Pel
 
 | Environment | URL |
 | --- | --- |
-| DEV | `http://appdev.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIM/1/GetTokenKlaim` |
-| LIVE | `https://app.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIM/1/GetTokenKlaim` |
 | GOLANG DEV | `http://192.168.10.210:8080/api/pelaporan/v1/token` |
 
 ### Auth
@@ -55,8 +53,6 @@ Dokumentasi ini menjelaskan endpoint-endpoint API yang digunakan pada alur **Pel
 
 | Environment | URL |
 | --- | --- |
-| DEV | `http://appdev.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIM/1/GENERATE_NOPELAPORAN` |
-| LIVE | `https://app.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIM/1/GENERATE_NOPELAPORAN` |
 | GOLANG DEV | `http://192.168.10.210:8080/api/pelaporan/v1/nomor` |
 
 ### Request Body
@@ -109,8 +105,6 @@ Dokumentasi ini menjelaskan endpoint-endpoint API yang digunakan pada alur **Pel
 
 | Environment | URL |
 | --- | --- |
-| DEV | `http://appdev.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIM/1/ASM_RegisPelaporan` |
-| LIVE | `https://app.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIM/1/ASM_RegisPelaporan` |
 | GOLANG DEV | `http://192.168.10.210:8080/api/pelaporan/v1/registrasi` |
 
 ### Request Body
@@ -212,8 +206,6 @@ Dokumentasi ini menjelaskan endpoint-endpoint API yang digunakan pada alur **Pel
 
 | Environment | URL |
 | --- | --- |
-| DEV | `http://appdev.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIM/1/ASM_DokumenPelaporan` |
-| LIVE | `https://app.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIM/1/ASM_DokumenPelaporan` |
 | GOLANG DEV | `http://192.168.10.210:8080/api/pelaporan/v1/dokumen` |
 
 ### Request Body
@@ -273,7 +265,6 @@ Dokumentasi ini menjelaskan endpoint-endpoint API yang digunakan pada alur **Pel
 
 | Environment | URL |
 | --- | --- |
-| DEV/LIVE | `http://appdev.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIMMOBILE/ASM-FW-ICMS-WORK-FORMULIRCLAIM/MobileListKota` |
 | GOLANG DEV | `http://192.168.10.210:8080/api/pelaporan/v1/kota` |
 
 ### Response
@@ -301,7 +292,6 @@ Dokumentasi ini menjelaskan endpoint-endpoint API yang digunakan pada alur **Pel
 
 | Environment | URL |
 | --- | --- |
-| DEV | `http://appdev.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIM/1/ASM_ListBengkel` |
 | GOLANG DEV | `http://192.168.10.210:8080/api/pelaporan/v1/bengkel` |
 
 ### Request Body (contoh)
@@ -355,8 +345,6 @@ Dokumentasi ini menjelaskan endpoint-endpoint API yang digunakan pada alur **Pel
 
 | Environment | URL |
 | --- | --- |
-| DEV | `http://appdev.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIM/1/ASM_PindahBengkelPelaporan` |
-| LIVE | `https://app.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIM/1/ASM_PindahBengkelPelaporan` |
 | GOLANG DEV | `http://192.168.10.210:8080/api/pelaporan/v1/pindah-bengkel` |
 
 ### Request Body
@@ -424,8 +412,6 @@ Mengapa Bengkel Tekno?
 
 | Environment | URL |
 | --- | --- |
-| DEV | `http://appdev.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIM/1/ASM_RegisPelaporanStolen` |
-| LIVE | `https://app.claimq.id/prweb/PRRestService/ASMFWICMSWORKCLAIM/1/ASM_RegisPelaporanStolen` |
 | GOLANG DEV | `http://192.168.10.210:8080/api/pelaporan/v1/registrasi-stolen` |
 
 #### Request Body
