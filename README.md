@@ -1,6 +1,6 @@
 # Dokumentasi API Pelaporan ASM
 
-Dokumentasi ini menjelaskan endpoint-endpoint API yang digunakan pada alur **Pelaporan Klaim via Barcode** untuk PT Asuransi Sinar Mas (ASM), meliputi environment DEV, LIVE, dan GOLANG DEV.
+Dokumentasi ini menjelaskan endpoint-endpoint API yang digunakan pada alur **Pelaporan Klaim via API** untuk PT Asuransi Sinar Mas (ASM), meliputi environment GOLANG DEV.
 
 ## Daftar Isi
 
